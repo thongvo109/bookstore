@@ -9,11 +9,11 @@ import (
 
 func main() {
 	sql := &db.Sql{
-		Host:     "localhost",
+		Host:     "35.222.222.36",
 		Port:     5432,
-		UserName: "demo_flutter",
-		Password: "123456",
-		DbName:   "code4func",
+		UserName: "thongvo",
+		Password: "thongvo109",
+		DbName:   "thongvo",
 	}
 
 	sql.Connect()
