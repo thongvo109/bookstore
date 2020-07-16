@@ -54,3 +54,9 @@ CREATE TABLE "users"
     CONSTRAINT users_phone_key UNIQUE (phone),
     CONSTRAINT users_userid_key UNIQUE (user_id)
 );
+
+DROP TABLE orders;
+DROP TABLE card;
+DROP TABLE cate;
+DROP TABLE product;
+DROP TABLE users;
