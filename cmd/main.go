@@ -13,7 +13,7 @@ func main() {
 		Port:     5432,
 		UserName: "thongvo",
 		Password: "thongvo109",
-		DbName:   "thongvo",
+		DbName:   "bookstore",
 	}
 
 	sql.Connect()
