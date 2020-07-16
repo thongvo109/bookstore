@@ -12,7 +12,7 @@ WORKDIR $GOPATH/src/bookstore
 
 COPY . .
 
-RUN go mod init github-trending
+RUN go mod init bookstore
 WORKDIR cmd
 RUN GOOS=linux go build -o app
 
